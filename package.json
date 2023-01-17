@@ -1,0 +1,41 @@
+{
+  "name": "vuetisse-spa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.5",
+    "@jrnwn/utils": "^0.0.1",
+    "@unocss/reset": "^0.48.0",
+    "@vueuse/core": "^9.8.2",
+    "animol": "^1.0.12",
+    "redaxios": "^0.5.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "@iconify-json/tabler": "^1.1.54",
+    "@types/node": "^18.11.18",
+    "@unocss/preset-icons": "^0.48.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.3",
+    "unocss": "^0.48.0",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.0",
+    "vite-plugin-pages": "^0.28.0",
+    "vite-plugin-pwa": "^0.14.1",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    "vitest": "^0.26.3",
+    "vue-tsc": "^1.0.11"
+  }
+}

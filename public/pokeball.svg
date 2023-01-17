@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 68 68">
+  <defs>
+    <filter id="a" width="1.19" height="1.54" x="-.09" y="-.27" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.24"/>
+    </filter>
+  </defs>
+  <g transform="rotate(15deg)">
+    <path 
+      fill="#94a3b8" 
+      paint-order="fill markers stroke"
+      d="M34 7.15A26.85 26.85 0 0 0 7.58 29.22a1.83 1.83 0 0 0 1.84 2.11h13.8a2.34 2.34 0 0 0 2.06-1.42 9.64 9.64 0 0 1 17.44 0 2.34 2.34 0 0 0 2.06 1.42h13.8a1.83 1.83 0 0 0 1.84-2.11A26.85 26.85 0 0 0 34 7.15Zm0 22.35a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM7.58 38.78a26.85 26.85 0 0 0 52.83 0 1.83 1.83 0 0 0-1.84-2.12H44.78a2.34 2.34 0 0 0-2.06 1.43 9.64 9.64 0 0 1-17.44 0 2.34 2.34 0 0 0-2.07-1.43H9.42a1.83 1.83 0 0 0-1.84 2.12z"
+    />
+  </g>
+</svg>

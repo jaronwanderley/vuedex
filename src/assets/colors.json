@@ -1,0 +1,21 @@
+{
+  "steel": { "badge": "#b7b8d0", "background": "#e3e4f0" },
+  "fairy": { "badge": "#ed6ec7", "background": "#faaee3" },
+  "psychic": { "badge": "#f85888", "background": "#ff9ebb" },
+  "fighting": { "badge": "#c03028", "background": "#e6564e" },
+  "fire": { "badge": "#f08030", "background": "#fcab70" },
+  "ground": { "badge": "#eac658", "background": "#f8e096" },
+  "electric": { "badge": "#f8d030", "background": "#ffe476" },
+  "rock": { "badge": "#cebc72", "background": "#e7daa5" },
+  "bug": { "badge": "#a8b820", "background": "#d7ea3b" },
+  "grass": { "badge": "#78c850", "background": "#a2e283" },
+  "ice": { "badge": "#98d8d8", "background": "#ccf0f0" },
+  "water": { "badge": "#6890f0", "background": "#a9c1fb" },
+  "dragon": { "badge": "#7038f8", "background": "#a37eff" },
+  "unkown": { "badge": "#1c9c88", "background": "#1fe6c6" },
+  "ghost": { "badge": "#705898", "background": "#957bc2" },
+  "poison": { "badge": "#a040a0", "background": "#ce5fce" },
+  "flying": { "badge": "#a890f0", "background": "#dcd1fc" },
+  "normal": { "badge": "#a8a878", "background": "#cdcd9f" },
+  "dark": { "badge": "#705848", "background": "#aa7a5b" }
+}
