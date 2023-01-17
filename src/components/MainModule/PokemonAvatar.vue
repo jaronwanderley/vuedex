@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <img 
+  <Img 
     :src="`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`" 
     :alt="`image of ${name}`" 
   />
