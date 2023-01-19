@@ -9,7 +9,7 @@ const favorites = useStorage('poke-favorites', [] as Pokemon[])
 const isOnList = (pokeId: number) => favorites.value.findIndex(({id}: Pokemon) => id === pokeId) > -1
 const add = ({id, name, types}: Pokemon) => {
   if(!isOnList(id))
-    favorites.value.push({id, name, types})
+    favorites.value.push({id, name, types: types.map(({type: {name}}: any) => name)})
 }
 const remove = (pokeId: number) => {
   favorites.value = favorites.value

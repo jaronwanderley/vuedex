@@ -32,7 +32,7 @@ const types = computed(() => props.data.types.map(({type}) => type.name))
       class="absolute bottom-1 right-1 w-[clamp(50px,50%,160px)] translate-x-5"
     />
     <FavoriteButton
-      :id="id" 
+      :data="data" 
       class="absolute right-2 bottom-2"
     />
     <div
