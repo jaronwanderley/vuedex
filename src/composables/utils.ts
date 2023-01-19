@@ -29,4 +29,4 @@ export const formatProperName = (name: string) => name
   .map(([first, ...rest]) => [first.toUpperCase(), ...rest].join(''))
   .join(' ')
 
-export const formatIndexNumber = (id: number ) => `N°${id.toString().padStart(4, '0')}`
+export const formatIndexNumber = (id: number ) => `N.${id.toString().padStart(4, '0')}`
