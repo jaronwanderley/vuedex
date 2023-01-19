@@ -1,14 +1,6 @@
 <script setup lang="ts">
 const isOpenSide = $ref(false)
 const { add, isOnList, list, remove } = favoritePokemons
-onMounted(() => {
-  console.log('add bulbasaur')
-  add({
-    id: 1,
-    name: 'bulbasaur',
-    types: ['grass', 'poison']
-  })
-})
 </script>
 
 <template>
