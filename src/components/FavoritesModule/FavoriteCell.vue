@@ -14,7 +14,7 @@ const emit = defineEmits(['click'])
     <div class="flex-1">
       <h3 class="font-semibold text-xs opacity-70">{{ formatIndexNumber(data.id) }}</h3>
       <h2 class="font-bold text-base pb-.5">{{ formatProperName(data.name) }}</h2>
-      <div class="flex gap-2">
+      <div class="flex gap-1">
         <TypeBadge
           v-for="type in data.types" 
           :key="type"

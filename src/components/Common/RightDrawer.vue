@@ -44,9 +44,9 @@ watchEffect(() => {
     :class="{
       'translate-x-110%': !modelValue,
     }"
-    class="bg-base fixed top-3 right-3 bottom-3 w-[calc(100%-24px)] max-w-80 rounded-xl p-4 shadow shadow-2xl transition duration-300 ease-out"
+    class="flex flex-col overflow-hidden bg-base fixed top-3 right-3 bottom-3 w-[calc(100%-24px)] max-w-80 rounded-xl shadow shadow-2xl transition duration-300 ease-out"
   >
-    <div class="flex items-center">
+    <div class="flex pt-4 px-4 pb-2 items-center">
       <h2 class="flex-1 font-bold text-lg ml-2">{{ title }}</h2>
       <Btn 
         size="sm"
@@ -55,7 +55,7 @@ watchEffect(() => {
         <div class="i-tabler-x"></div>
       </Btn>
     </div>
-    <div>
+    <div class="flex-1 overflow-y-auto overflow-x-hidden" style="--bar-end: 8px;">
       <slot></slot>
     </div>
   </div>

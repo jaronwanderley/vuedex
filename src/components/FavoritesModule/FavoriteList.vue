@@ -13,7 +13,7 @@ const { add, isOnList, list, remove } = favoritePokemons
       <span class="hidden sm:block">Favorites</span>
     </template>
 
-    <div v-auto-animate>
+    <div v-auto-animate class="flex flex-col gap-3 pl-4 py-4 pr-2">
       <FavoriteCell
         v-for="pokemon in list"
         :key="pokemon.id"

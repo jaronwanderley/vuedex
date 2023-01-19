@@ -18,7 +18,7 @@ const isFavorite = computed(() => isOnList(props.data.id))
       viewBox="0 0 24 24" 
       stroke-linecap="round" 
       stroke-linejoin="round"
-      class="min-w-4 min-h-4 stroke-current stroke-2 fill-none mt-.5"
+      class="min-w-4 min-h-4 stroke-current stroke-2 fill-none mt-.5 pointer-events-none"
     >
       <g v-if="isFavorite">
         <path class="fill-red stroke-none" d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
