@@ -12,8 +12,8 @@ const emit = defineEmits(['click'])
   <div class="flex gap-3 items-center">
     <PokemonAvatar :id="data.id" :name="data.name"/>
     <div class="flex-1">
-      <h3>{{ formatIndexNumber(data.id) }}</h3>
-      <h2>{{ formatProperName(data.name) }}</h2>
+      <h3 class="font-semibold text-xs opacity-70">{{ formatIndexNumber(data.id) }}</h3>
+      <h2 class="font-bold text-base pb-.5">{{ formatProperName(data.name) }}</h2>
       <div class="flex gap-2">
         <TypeBadge
           v-for="type in data.types" 
