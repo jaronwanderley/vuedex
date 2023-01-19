@@ -31,6 +31,10 @@ const types = computed(() => props.data.types.map(({type}) => type.name))
       :name="name" 
       class="absolute bottom-1 right-1 w-[clamp(50px,50%,160px)] translate-x-5"
     />
+    <FavoriteButton
+      :id="id" 
+      class="absolute right-2 bottom-2"
+    />
     <div
       class="text-left text-gray-6 font-black text-lg leading-3 pl-.2 mix-blend-color-burn tracking-wider"
     >
@@ -49,6 +53,6 @@ const types = computed(() => props.data.types.map(({type}) => type.name))
 
 <style>
 .back-cell span {
-  background-color: v-bind(mainColors[types[0]]);
+  background-color: v-bind(mainColors[types[0]] || '#a8a878');
 }
 </style>

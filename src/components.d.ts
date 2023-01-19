@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     Collapse: typeof import('./components/common/Collapse.vue')['default']
     Counter: typeof import('./components/Counter.vue')['default']
     Expand: typeof import('./components/common/Expand.vue')['default']
+    FavoriteButton: typeof import('./components/FavoritesModule/FavoriteButton.vue')['default']
     FavoriteCell: typeof import('./components/FavoritesModule/FavoriteCell.vue')['default']
     FavoriteList: typeof import('./components/FavoritesModule/FavoriteList.vue')['default']
     FavoritesList: typeof import('./components/Favorites/FavoritesList.vue')['default']
