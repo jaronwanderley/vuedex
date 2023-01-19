@@ -55,6 +55,9 @@ watchEffect(() => {
         <div class="i-tabler-x"></div>
       </Btn>
     </div>
+    <div>
+      <slot></slot>
+    </div>
   </div>
 </template>
 

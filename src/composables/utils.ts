@@ -28,3 +28,5 @@ export const formatProperName = (name: string) => name
   .split(' ')
   .map(([first, ...rest]) => [first.toUpperCase(), ...rest].join(''))
   .join(' ')
+
+export const formatIndexNumber = (id: number ) => `N°${id.toString().padStart(4, '0')}`

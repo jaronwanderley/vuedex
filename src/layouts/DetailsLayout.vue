@@ -1,7 +1,5 @@
 <script setup lang="ts">
 const router = useRouter()
-
-const isOpenSide = $ref(false)
 </script>
 
 <template>
@@ -11,18 +9,7 @@ const isOpenSide = $ref(false)
       <span class="hidden sm:block">Back</span>
     </Btn>
     <VuedexLogo :size="120"/>
-    <RightDrawer
-      v-model="isOpenSide"
-      title="Favorites"
-    >
-      <template #button>
-        <div class="i-tabler-list-details"></div>  
-        <span class="hidden sm:block">Favorites</span>
-      </template>
-      <div>
-      teste
-      </div>
-    </RightDrawer>
+    <FavoriteList />
   </nav>
   <RouterView />
 </template>

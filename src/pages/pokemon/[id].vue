@@ -48,7 +48,7 @@ onMounted(() => {
       <div
         class="text-left text-gray-6 font-black text-lg leading-3 pl-.2 mix-blend-color-burn tracking-wider"
       >
-        N°{{ pokemon.id.toString().padStart(4, '0') }}
+        {{ formatIndexNumber(pokemon.id) }}
       </div>
       <div class="text-left font-bold text-2xl text-slate-9/80">{{ formatProperName(pokemon.name) }}</div>
       <div class="flex gap-2 mt-1">
