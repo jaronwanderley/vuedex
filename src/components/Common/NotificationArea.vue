@@ -18,7 +18,7 @@ const count = computed(() => Object.keys(notifications.value).length)
       v-for="[ index, {message, timeout, createdAt, type} ] in notifications" 
       :key="createdAt"
       :class="{
-        'bg-base': type !== 'error',
+        'bg--bs': type !== 'error',
         'bg-red-4 text-white': type === 'error',
       }"
       class="grid grid-cols-[1fr_28px] gap-2 w-full max-w-120 pointer-events-auto p-2 text-xs rounded-xl shadow-orange-7/10 shadow-lg"

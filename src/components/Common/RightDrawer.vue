@@ -44,7 +44,7 @@ watchEffect(() => {
     :class="{
       'translate-x-110%': !modelValue,
     }"
-    class="flex flex-col overflow-hidden bg-base fixed top-3 right-3 bottom-3 w-[calc(100%-24px)] max-w-80 rounded-xl shadow shadow-2xl transition duration-300 ease-out"
+    class="flex flex-col overflow-hidden bg--bs fixed top-3 right-3 bottom-3 w-[calc(100%-24px)] max-w-80 rounded-xl shadow shadow-2xl transition duration-300 ease-out"
   >
     <div class="flex pt-4 px-4 pb-2 items-center">
       <h2 class="flex-1 font-bold text-lg ml-2">{{ title }}</h2>

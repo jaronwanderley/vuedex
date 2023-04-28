@@ -42,7 +42,7 @@ const onToggle = () => {
     ref="details"
     :open="isOpen"
     v-auto-animate
-    class="bg-base text-left shadow shadow-xl inline-block w-full rounded-xl"
+    class="bg--bs text-left shadow shadow-xl inline-block w-full rounded-xl"
   >
     <summary 
       ref="summary"
